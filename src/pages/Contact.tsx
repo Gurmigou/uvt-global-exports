@@ -63,7 +63,7 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-2xl">Partnership Inquiry</CardTitle>
                 <p className="text-muted-foreground">
-                  Fill out the form below and our team will respond within 24 hours
+                  Fill out the form below and our team will respond
                 </p>
               </CardHeader>
               <CardContent>
@@ -76,7 +76,6 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      placeholder="John Smith"
                     />
                   </div>
 
@@ -89,7 +88,6 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="john@company.com"
                     />
                   </div>
 
@@ -100,7 +98,6 @@ const Contact = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      placeholder="Your Company Ltd."
                     />
                   </div>
 
@@ -112,7 +109,6 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      placeholder="Tell us about your requirements, preferred products, and expected order volumes..."
                       rows={6}
                     />
                   </div>
@@ -150,10 +146,10 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold mb-1">Email</p>
                       <a
-                        href="mailto:export@dasgroupglobal.com"
+                        href="mailto:export@das-group.co.uk"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        export@dasgroupglobal.com
+                        export@das-group.co.uk
                       </a>
                     </div>
                   </div>
@@ -165,10 +161,10 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold mb-1">Phone</p>
                       <a
-                        href="tel:+1234567890"
+                        href="tel:+447304165353"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +1 (234) 567-890
+                        +44 730 416 5353
                       </a>
                     </div>
                   </div>
@@ -178,9 +174,9 @@ const Contact = () => {
                       <MapPin className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold mb-1">Global Operations</p>
+                      <p className="font-semibold mb-1">Address</p>
                       <p className="text-muted-foreground">
-                        Serving international markets worldwide
+                        128 City Road, London, United Kingdom, EC1V 2NX
                       </p>
                     </div>
                   </div>
@@ -203,21 +199,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Looking for Custom Solutions?</h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              We specialize in tailored export solutions for large-scale distributors and retail chains. 
-              Our team can discuss custom packaging, private labeling, and volume discounts.
-            </p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Schedule a Consultation
-            </Button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

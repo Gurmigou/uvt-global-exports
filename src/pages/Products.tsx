@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import beefImage from "@/assets/beef.jpg";
-import chickenImage from "@/assets/chicken.jpg";
+import chickenImage from "@/assets/chicken.png";
 import sausagesImage from "@/assets/sausages.png";
-import brisketImage from "@/assets/brisket.jpg";
-import porkBalykImage from "@/assets/pork-balyk.jpg";
-import mozzarellaImage from "@/assets/mozzarella.jpg";
+import brisketImage from "@/assets/brisket.png";
+import porkBalykImage from "@/assets/pork-balyk.png";
+import mozzarellaImage from "@/assets/mozzarella.png";
 import cheddarImage from "@/assets/cheddar.jpg";
 
 const Products = () => {
@@ -82,11 +82,11 @@ const Products = () => {
             {products.map((product, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="aspect-square overflow-hidden">
+                  <div className="aspect-square overflow-hidden flex items-center justify-center bg-muted/20">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-contain hover:scale-110 transition-transform duration-300"
                     />
                   </div>
                   <div className="p-6 flex flex-col">

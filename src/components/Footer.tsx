@@ -27,19 +27,19 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:export@dasgroupglobal.com" className="hover:text-primary transition-colors">
-                  export@dasgroupglobal.com
+                <a href="mailto:export@das-group.co.uk" className="hover:text-primary transition-colors">
+                  export@das-group.co.uk
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone size={16} className="text-primary" />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+447304165353" className="hover:text-primary transition-colors">
+                  +44 730 416 5353
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <MapPin size={16} className="text-primary" />
-                <span>Global Operations</span>
+                <span>128 City Road, London, United Kingdom, EC1V 2NX</span>
               </li>
             </ul>
           </div>
