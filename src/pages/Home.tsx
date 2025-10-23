@@ -14,11 +14,11 @@ import cheddarImage from "@/assets/cheddar.jpg";
 const Home = () => {
   const products = [
     { name: "Premium Beef", image: beefImage, description: "Finest cuts for discerning markets" },
-    { name: "Chicken Fillet", image: chickenImage, description: "Fresh, high-quality poultry" },
-    { name: "Grilling Sausages", image: sausagesImage, description: "Gourmet sausages for every occasion" },
-    { name: "Brisket", image: brisketImage, description: "Premium brisket cuts" },
-    { name: "Pork Balyk", image: porkBalykImage, description: "Delicate smoked pork delicacy" },
-    { name: "Mozzarella", image: mozzarellaImage, description: "Fresh Italian-style cheese" },
+    { name: "Chicken Fillet", image: chickenImage, description: "Made high-quality poultry, ready-to-eat" },
+    { name: "Sausages", image: sausagesImage, description: "Gourmet sausages for every occasion" },
+    { name: "Brisket and Ham", image: brisketImage, description: "Premium ready-to-eat meat cuts" },
+    { name: "Pork Fillet", image: porkBalykImage, description: "Delicate smoked-boiled pork" },
+    { name: "Mozzarella", image: mozzarellaImage, description: "Exclusive Italian-style cheese" },
     { name: "Cheddar Cheese", image: cheddarImage, description: "Aged to perfection" },
   ];
 

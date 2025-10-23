@@ -91,3 +91,7 @@ All colors MUST be HSL.
     @apply font-serif;
   }
 }
+
+#lovable-badge {
+  display: none !important;
+}
