@@ -20,8 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-primary">UVT</h1>
-            <span className="text-sm text-muted-foreground hidden sm:inline">DAS Group Global</span>
+            <h1 className="text-2xl font-bold text-primary">DAS Group Global</h1>
           </Link>
 
           {/* Desktop Navigation */}

@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-primary mb-4">UVT Global</h3>
+            <h3 className="text-xl font-bold text-primary mb-4">DAS Group Global</h3>
             <p className="text-sm text-muted-foreground">
-              DAS Group Global - Your trusted partner for premium meat and dairy exports to African markets.
+              Your trusted partner for premium meat and dairy exports to African markets.
             </p>
           </div>
 
@@ -27,8 +27,8 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:export@uvtglobal.com" className="hover:text-primary transition-colors">
-                  export@uvtglobal.com
+                <a href="mailto:export@dasgroupglobal.com" className="hover:text-primary transition-colors">
+                  export@dasgroupglobal.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} UVT Global (DAS Group Global). All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DAS Group Global. All rights reserved.</p>
         </div>
       </div>
     </footer>

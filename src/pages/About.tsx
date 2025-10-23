@@ -31,10 +31,9 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-muted/50 to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">About UVT Global</h1>
+            <h1 className="text-5xl font-bold mb-6">About DAS Group Global</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Known internationally as DAS Group Global, we are a leading exporter of premium 
-              meat and dairy products to African markets
+              We are a leading exporter of premium meat and dairy products to African markets
             </p>
           </div>
         </div>
@@ -47,10 +46,9 @@ const About = () => {
             <h2 className="text-4xl font-bold mb-8 text-center">Our Story</h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                UVT has established itself as a trusted name in the international food export industry, 
-                with a special focus on serving the growing markets across Africa. Operating under the 
-                DAS Group Global brand internationally, we bring together European quality standards 
-                with deep market expertise.
+                DAS Group Global has established itself as a trusted name in the international food export industry, 
+                with a special focus on serving the growing markets across Africa. We bring together European quality 
+                standards with deep market expertise.
               </p>
               <p>
                 Our comprehensive portfolio includes premium beef, poultry, pork products, and high-quality 
