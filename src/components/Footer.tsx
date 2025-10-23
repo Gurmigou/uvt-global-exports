@@ -8,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-primary mb-4">DAS Group Global</h3>
             <p className="text-sm text-muted-foreground">
-              Your trusted partner for premium meat and dairy exports to African markets.
+              Your trusted partner for premium meat and dairy exports.
             </p>
           </div>
 

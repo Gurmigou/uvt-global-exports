@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import beefImage from "@/assets/beef.jpg";
 import chickenImage from "@/assets/chicken.jpg";
-import sausagesImage from "@/assets/sausages.jpg";
+import sausagesImage from "@/assets/sausages.png";
 import brisketImage from "@/assets/brisket.jpg";
 import porkBalykImage from "@/assets/pork-balyk.jpg";
 import mozzarellaImage from "@/assets/mozzarella.jpg";
