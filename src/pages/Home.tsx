@@ -26,7 +26,7 @@ const Home = () => {
     {
       icon: <Globe className="w-8 h-8 text-primary" />,
       title: "Global Reach",
-      description: "Specialized expertise in African markets with reliable logistics",
+      description: "Specialized expertise in global foods supplies and reliable logistics",
     },
     {
       icon: <Award className="w-8 h-8 text-primary" />,
@@ -58,7 +58,7 @@ const Home = () => {
             Premium Meat & Dairy Exports
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-white/90">
-            Your trusted partner for high-quality food exports to African markets
+            Your trusted partner for high-quality food exports
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -78,8 +78,7 @@ const Home = () => {
             <h2 className="text-4xl font-bold mb-6">Welcome to DAS Group Global</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               As a leading international exporter, we specialize in delivering premium meat and dairy products 
-              to distributors, retail chains, and restaurants across African markets. With European quality 
-              standards and reliable global logistics, we are your trusted partner for wholesale food supply.
+              to distributors, retail chains, and restaurants.
             </p>
           </div>
         </div>

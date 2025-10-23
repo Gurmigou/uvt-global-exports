@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: <Globe2 className="w-12 h-12 text-primary" />,
       title: "Global Expertise",
-      description: "Deep understanding of African market requirements and cultural preferences",
+      description: "Deep understanding of international market requirements and cultural preferences",
     },
     {
       icon: <Users className="w-12 h-12 text-primary" />,
@@ -33,7 +33,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">About DAS Group Global</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We are a leading exporter of premium meat and dairy products to African markets
+              Your trusted partner for premium meat and dairy exports
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ const About = () => {
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
                 DAS Group Global has established itself as a trusted name in the international food export industry, 
-                with a special focus on serving the growing markets across Africa. We bring together European quality 
+                with a special focus on serving the growing markets across the globe. We bring together European quality 
                 standards with deep market expertise.
               </p>
               <p>
@@ -71,7 +71,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">Our Mission</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              To be the most trusted supplier of premium meat and dairy products to African markets, 
+              To be the most trusted supplier of premium meat and dairy products to global markets, 
               combining European quality standards with exceptional service, reliable logistics, and 
               a deep commitment to our partners' long-term success.
             </p>
@@ -106,7 +106,7 @@ const About = () => {
               <p>
                 All our products are sourced from certified European suppliers and undergo rigorous 
                 quality control processes. We maintain full compliance with international food safety 
-                standards including HACCP, ISO 22000, and meet all import requirements for African markets.
+                standards including HACCP, ISO 22000, and meet all international imports requirements.
               </p>
               <p className="font-semibold text-primary">
                 European Quality Standards • International Certifications • Reliable Cold Chain Logistics

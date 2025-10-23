@@ -180,7 +180,7 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold mb-1">Global Operations</p>
                       <p className="text-muted-foreground">
-                        Serving African markets worldwide
+                        Serving international markets worldwide
                       </p>
                     </div>
                   </div>
