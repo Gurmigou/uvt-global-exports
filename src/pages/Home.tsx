@@ -75,7 +75,7 @@ const Home = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Welcome to DAS Group Global</h2>
+            <h2 className="text-4xl font-bold mb-6">Welcome to DAS Group Global LTD</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               As a leading international exporter, we specialize in delivering premium meat and dairy products 
               to distributors, retail chains, and restaurants.
@@ -87,7 +87,7 @@ const Home = () => {
       {/* Features Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16">Why Choose DAS Group Global</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">Why Choose DAS Group Global LTD</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
@@ -143,7 +143,7 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Partner With Us?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Join leading distributors and retailers who trust DAS Group Global for their premium food supply needs
+            Join leading distributors and retailers who trust DAS Group Global LTD for their premium food supply needs
           </p>
           <Button asChild size="lg" variant="secondary" className="bg-white text-foreground hover:bg-white/90">
             <Link to="/contact">Get in Touch</Link>

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-primary mb-4">DAS Group Global</h3>
+            <h3 className="text-xl font-bold text-primary mb-4">DAS Group Global LTD</h3>
             <p className="text-sm text-muted-foreground">
               Your trusted partner for premium meat and dairy exports.
             </p>

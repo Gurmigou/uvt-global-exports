@@ -31,7 +31,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-muted/50 to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">About DAS Group Global</h1>
+            <h1 className="text-5xl font-bold mb-6">About DAS Group Global LTD</h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Your trusted partner for premium meat and dairy exports
             </p>
@@ -46,7 +46,7 @@ const About = () => {
             <h2 className="text-4xl font-bold mb-8 text-center">Our Story</h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                DAS Group Global has established itself as a trusted name in the international food export industry, 
+                DAS Group Global LTD has established itself as a trusted name in the international food export industry, 
                 with a special focus on serving the growing markets across the globe. We bring together European quality 
                 standards with deep market expertise.
               </p>
